@@ -1,0 +1,24 @@
+.links {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, min-content) minmax(186px, 701px);
+  grid-template-rows: 18px;
+  grid-template-areas:
+  "maps weather schedule calendar trip copyright";
+  gap: 18px;
+}
+
+@media screen and (max-width: 720px) {
+  .links {
+    grid-template-columns: minmax(74px, 158px);
+    grid-template-rows: repeat(5, 24px) 14px;
+    grid-template-areas:
+    "maps"
+    "weather" 
+    "schedule"
+    "calendar"
+    "trip"
+    "copyright";
+    gap: 32px;
+  }
+} 

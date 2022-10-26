@@ -1,0 +1,14 @@
+.footer {
+  max-height: 100%;
+  max-width: 92.5%;
+  margin-top: 92px;
+  margin-bottom: 24px;
+  align-self: center;
+}
+
+@media screen and (max-width: 720px) {
+.footer {
+  align-self: start;
+  margin-left: 16px;
+  }
+}
