@@ -1,11 +1,11 @@
 .cover__subtitle {
-  grid-area: image;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   margin-top: 36.23%;
   max-width: 360px;
-  color: #FFFFFF;
+  color: #fff;
+  margin: auto;
   text-align: center;
   z-index: 2;
 }

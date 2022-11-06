@@ -1,13 +1,9 @@
 .place__image {
   grid-area: image;
   align-self: start;
-  max-width: 460px;
+  width: 100%;
   height: auto;
   margin: 0;
-}
-
-.place:hover .place__image {
-  opacity: 0.6;
 }
 
 @media screen and (max-width: 1030px) {
