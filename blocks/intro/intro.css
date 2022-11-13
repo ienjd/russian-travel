@@ -3,10 +3,10 @@
   margin-bottom: 92px;
   margin-left: 148px;
   align-self: start;
-  display:  flex;
+  display: flex;
   flex-direction: column;
   padding-bottom: 0;
-  padding-left:132px;
+  padding-left: 132px;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,7 +1,10 @@
 .cover {
   margin-top: 92px;
-  width: 92.5%;
-  height: 740px;
+  min-height: 740px;
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  border: 1px red solid;
 }
 
 @media screen and (max-width: 1024px) {

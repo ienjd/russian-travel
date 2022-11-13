@@ -5,26 +5,14 @@
   max-width: 560px;
   padding-bottom: 0;
   color: #fff;
-  margin: auto;
+ /* margin-top: 20.45%;*/
   text-align: center;
   z-index: 2;
+  border: 1px red solid;
 }
-
-@media screen and (max-width: 1024px) {
-  .cover__title {
-    margin-top: 195px;
-    }
-  }
-
-@media screen and (max-width: 768px) {
-  .cover__title {
-    margin-top: 115px;
-    }
-  }
 
 @media screen and (max-width: 570px) {
   .cover__title {
-    margin-top: 33px;
     font-size: 32px;
     line-height: 1.06;
     max-width: 250px;
