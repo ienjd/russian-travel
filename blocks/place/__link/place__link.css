@@ -4,12 +4,14 @@
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
-  color: #FFFFFF;
+  color: #fff;
   text-align: left;
+  opacity: 1;
+  transition: opacity 1s easy 0.1;
 }
 
 .place__link:hover {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 500px) {
