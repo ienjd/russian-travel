@@ -9,7 +9,6 @@
   padding: 0;
   align-self: center;
   justify-content: space-between;
-  border: 1px red solid;
 }
 
 @media screen and (max-width: 720px) {

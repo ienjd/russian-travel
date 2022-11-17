@@ -10,7 +10,6 @@
   text-decoration: none;
   background-color: rgba(42, 44, 47, 0.3);
   transition: background-color 1s linear 0.1s;
-  border: 1px blue solid;
   }
 
   .cover__link:hover {
