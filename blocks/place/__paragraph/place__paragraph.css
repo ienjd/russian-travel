@@ -7,11 +7,7 @@
   padding-top: 0;
   line-height: 163%;
   text-align: left;
-  color: #FFFFFF;
-}
-
-.place__paragraph:nth-of-type(2) {
-  margin-bottom:0;
+  color: #fff;
 }
 
 @media screen and (max-width: 770px) {
@@ -22,6 +18,7 @@
 
 @media screen and (max-width: 500px) {
   .place__paragraph {
-    padding: 0 16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 }

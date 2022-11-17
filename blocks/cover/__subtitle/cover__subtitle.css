@@ -3,11 +3,9 @@
   font-size: 18px;
   line-height: 22px;
   max-width: 360px;
+  margin-top: 0;
   color: #fff;
-  /*margin-bottom: 20.45%;*/
   text-align: center;
-  z-index: 2;
-  border: 1px red solid;
 }
 
 @media screen and (max-width: 570px) {

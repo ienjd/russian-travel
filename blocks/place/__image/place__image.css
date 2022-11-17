@@ -1,6 +1,7 @@
 .place__image {
   grid-area: image;
   align-self: start;
+  max-width: 460px;
   width: 100%;
   height: auto;
   margin: 0;

@@ -2,6 +2,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
+  margin-right: 18px;
   text-decoration: none;
   display: flex;
   align-self: center;
@@ -19,5 +20,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 24px;
+    margin-bottom: 32px;
+    align-self: start;
   }
 } 

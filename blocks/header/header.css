@@ -1,16 +1,16 @@
 .header {
-  height: 52px;
-  max-width: 92.5%;
+  max-width: 1184px;
+  width: 100%;
   margin-top: calc(100%/(1280/28));
   margin-bottom: 0;
-  display: grid;
-  grid-template-columns: minmax(176px, 1088px) 30px 30px;
-  gap: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
 }
 
 @media screen and (max-width: 720px) {
   .header {
-    height: 42px;
     margin-top: 16px;
     }
   }
