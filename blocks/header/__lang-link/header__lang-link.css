@@ -10,8 +10,12 @@
   text-decoration: none;
 }
 
+.header__lang-link:first-child {
+  margin-right: 18px;
+}
+
 .header__lang-link:hover {
-  opacity: 80%;
+  opacity: 0.8;
   text-decoration: underline;
 }
 
