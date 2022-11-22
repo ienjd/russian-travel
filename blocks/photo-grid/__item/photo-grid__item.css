@@ -1,12 +1,14 @@
 .photo-grid__item {
   max-width: 100%;
+  object-fit: contain;
   height: 100%;
 }
 
 
 @media screen and (max-width: 1024px) {
-  .photo__grid {
+  .photo-grid__item {
     width: 300px;
+    max-height: 225px;
   }
 } 
 
