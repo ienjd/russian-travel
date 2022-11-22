@@ -31,6 +31,7 @@
 @media screen and (max-width: 770px) {
   .place {
     max-width: 720px;
+    width: 100%;
     grid-template-columns: repeat(auto-fill, minmax(min-content, 340px));
     gap: 48px 28px;
     margin: 0 24px 80px 24px;

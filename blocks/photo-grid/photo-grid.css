@@ -8,7 +8,6 @@
   grid-auto-flow: dense;
   gap: 16px;
   box-sizing: border-box;
-  border: 1px green solid
 }
 
 @media screen and (max-width: 1024px) {
@@ -22,8 +21,10 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid {
-    grid-template-columns: repeat(2, minmax(284px, 1fr));
-    margin: 88px;
+    grid-template-columns: repeat(2, 352px);
+    grid-template-rows: repeat(6, 264px);
+    max-width: 720px;
+    gap: 16px;
   }
 } 
 
