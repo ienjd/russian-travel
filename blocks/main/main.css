@@ -1,9 +1,9 @@
 .main {
   max-width: 1280px;
-  width: 100%; 
-  margin: 0 auto 92px; 
-  display: flex; 
-  flex-direction: column; 
+  width: 100%;
+  margin: 0 auto 92px;
+  display: flex;
+  flex-direction: column;
   align-items: center; 
 }
 
