@@ -4,7 +4,7 @@
   margin: 0 0 92px 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-auto-flow: dense;
   gap: 16px;
   box-sizing: border-box;
