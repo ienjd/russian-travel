@@ -1,3 +1,4 @@
 .place__text-zone {
   grid-area: paragraph;
   align-self: start;
+}

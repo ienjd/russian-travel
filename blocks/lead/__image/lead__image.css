@@ -3,7 +3,6 @@
   max-height: 615px;
   margin-top: 64px;
   z-index: 2;
-  border: 1px red solid;
 }
 
 @media screen and (max-width: 1024px) {
@@ -13,6 +12,12 @@
   }
 
 @media screen and (max-width: 720px) {
+  .lead__image {
+    margin-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
   .lead__image {
     margin-top: 40px;
     }

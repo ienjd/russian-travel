@@ -2,7 +2,7 @@
   grid-area: title;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.06;
+  line-height: 76px;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
@@ -10,13 +10,12 @@
   align-items: start;
   text-align: left;
   color: #fff;
-  border: 1px red solid;
 }
 
 @media screen and (max-width: 1024px) {
   .place__title {
     font-size: 72px;
-    line-height: 1.0;
+    line-height: 76px;
   }
 }
 
@@ -25,7 +24,7 @@
     justify-items: start;
     max-width: 330px;
     font-size: 42px;
-    line-height: 1.0;
+    line-height: 46px;
     margin-top: 0;
   }
 }
@@ -33,7 +32,7 @@
 @media screen and (max-width: 500px) {
   .place__title {
     font-size: 32px;
-    line-height: 1.4;
+    line-height: 35px;
     padding: 0 16px;
   }
 }

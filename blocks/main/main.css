@@ -1,18 +1,25 @@
 .main {
-  width: 100%;
-  margin: 56px auto 0;
-  padding-left: 0;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat (5, 1fr);
-  gap: 92px;
-  justify-items: center;
+  max-width: 1280px;
+  width: 100%; 
+  margin: 0 auto 92px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .main {
-    margin-top: 48px;
-    gap: 88px;
+    margin-bottom: 88px;
     }
   }
-  
+
+@media screen and (max-width: 320px) {
+  .main {
+    width: 320px;
+    max-width: 100%;
+    margin-left: 16px;
+    margin-right: 0;
+    margin-bottom: 64px;
+    }
+  }
+    

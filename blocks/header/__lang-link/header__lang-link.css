@@ -6,7 +6,7 @@
   display: flex;
   align-self: center;
   text-align: end;
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -23,5 +23,7 @@
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
+    align-self: start;
+    margin-right: 27px;
     }
   }

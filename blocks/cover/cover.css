@@ -1,5 +1,5 @@
 .cover {
-  margin-top: 10px;
+  margin-top: 92px;
   margin-bottom: 0;
   width: 92.5%;
   max-height: 740px;
@@ -25,6 +25,7 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
+    margin-top: 92px;
     width: 100%;
     grid-template-rows: 640px;
     }
@@ -38,6 +39,7 @@
 
 @media screen and (max-width: 768px) { 
   .cover { 
+    margin-top: 90px;
     grid-template-rows: 480px;
     } 
   } 
@@ -62,6 +64,7 @@
 
 @media screen and (max-width: 320px) { 
   .cover { 
+    margin-top: 66px;
     grid-template-rows: 200px;
     } 
   } 
