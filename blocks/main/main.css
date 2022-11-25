@@ -2,6 +2,7 @@
   max-width: 1280px;
   width: 100%;
   margin: 0 auto 92px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center; 
@@ -17,8 +18,6 @@
   .main {
     width: 320px;
     max-width: 100%;
-    margin-left: 16px;
-    margin-right: 0;
     margin-bottom: 64px;
     }
   }

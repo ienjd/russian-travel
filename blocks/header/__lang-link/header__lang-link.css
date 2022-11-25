@@ -8,6 +8,7 @@
   text-align: end;
   color: #fff;
   text-decoration: none;
+  border: 1px red solid;
 }
 
 .header__lang-link:first-child {
@@ -23,7 +24,12 @@
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
-    align-self: start;
-    margin-right: 27px;
+    }
+  }
+ 
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    margin-top: 0;
+    padding-top: 2px;
     }
   }

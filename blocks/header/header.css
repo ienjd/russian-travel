@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border: 1px orchid solid;
 }
 
 @media screen and (max-width: 1024px) {
@@ -24,8 +25,7 @@
 @media screen and (max-width: 320px) {
   .header {
     margin: 16px 0 48px;
-    width: 320px;
-    padding-left: 45px;
+    max-width: 288px;
     justify-content: space-between;
     }
   }
